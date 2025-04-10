@@ -1,0 +1,57 @@
+# === Python ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+.venv/
+backend/env/
+backend/__pycache__/
+backend/*.pyc
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.vscode/
+backend/.DS_Store
+
+# === Environment Variables ===
+*.env
+.env
+.env.*
+
+# === VSCode ===
+.vscode/
+
+# === MacOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs ===
+*.log
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints
+
+# === React Frontend ===
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vscode/
+
+# === General ===
+*.swp
+*.bak
+*.tmp
+*.orig
+.idea/
+*.sublime-project
+*.sublime-workspace
