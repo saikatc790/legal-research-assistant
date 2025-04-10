@@ -10,7 +10,7 @@ from nltk.tokenize import sent_tokenize
 embedding_model = SentenceTransformer("BAAI/bge-base-en")  
 
 #Setup Chroma DB
-chroma_client = chromadb.PersistentClient(path="./backend/src/db/chroma")
+chroma_client = chromadb.PersistentClient(path="D:/Legal Research Assistant/backend/src/db/chroma")
 collection = chroma_client.get_or_create_collection("legal_docs")
 
 #Setup FAISS index
